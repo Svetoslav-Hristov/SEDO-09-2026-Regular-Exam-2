@@ -24,7 +24,7 @@ pipeline{
             
             steps{
                 echo "Testing code"
-                bat "dotnet test --no-build"
+                bat "dotnet test --no-build --verbosity normal"
             }
         }
   }
