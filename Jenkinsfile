@@ -3,7 +3,7 @@ pipeline{
     
     
      stages{
-        stage("Restore code){
+        stage("Restore code"){
            when {
                 branch 'main'
             }
